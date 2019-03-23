@@ -1,0 +1,138 @@
+body{
+  background: #BB8FCE  ;
+  text-align: center;
+}
+.main{
+  display:flex;
+  margin: 2%;
+padding: 2%;
+width: 80%;
+}
+.main section{
+  width:80%;
+  border: 5px solid #B2BABB;
+  background: #F4D03F ;
+  margin: 1%;
+  padding: 5%;
+}
+section{
+
+  text-align: center;
+  border: 5px solid #B2BABB;
+  background: #F4D03F ;
+
+}
+input,select{
+  width: 95%;
+  margin:1%;
+  padding:1%;
+  display: block;
+  border:1px solid black;
+
+}
+button{
+  width: 30%;
+  background:#48C9B0 ;
+  text-align: center;
+  margin: 2%;
+  padding: 1%;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  body{
+    background:#48C9B0;
+  }
+
+
+
+  .main{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 2%;
+  padding: 2%;
+  width: 80%;
+  }
+  .main section{
+    width:80%;
+    border: 5px solid #B2BABB;
+    background:pink ;
+    margin: 1%;
+    padding: 5%;
+  }
+  section{
+
+    text-align: center;
+    border: 5px solid #B2BABB;
+    background: pink ;
+
+  }
+  input,select{
+    width: 95%;
+    margin:1%;
+    padding:1%;
+    display: block;
+    border:1px solid black;
+
+  }
+  button{
+    width: 30%;
+    background: #E5EE82;
+    text-align: center;
+    margin: 2%;
+    padding: 1%;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+}
+
+
+
+@media only screen and (min-width:481px) and (max-width:760px){
+  body{
+    background:#cc99ff;
+  }
+  .main{
+    display:flex;
+    margin: 2%;
+  padding: 2%;
+  width: 80%;
+  }
+  .main section{
+    width:80%;
+    border: 5px solid #B2BABB;
+    background:#E5EE82 ;
+    margin: 1%;
+    padding: 5%;
+  }
+  section{
+
+    text-align: center;
+    border: 5px solid #B2BABB;
+    background: #E5EE82 ;
+
+  }
+  input,select{
+    width: 95%;
+    margin:1%;
+    padding:1%;
+    display: block;
+    border:1px solid black;
+
+  }
+  button{
+    width: 30%;
+    background: #E5EE82;
+    text-align: center;
+    margin: 2%;
+    padding: 1%;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  }
+}
